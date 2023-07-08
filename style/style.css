@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+}
+h1{
+    margin: 2.6rem auto 0 auto;
+    line-height: 2;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; 
+} 
+h2{
+    font-weight: normal;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.middle-container{
+    margin-top: 150px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile{
+    padding: 30px 110px 110px 90px;
+}
+.profile-description{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+hr{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-style: dotted;
+    border-color: #11999E;
+    border-width: 1px;
+    
+}
+
+.skills{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skill-row{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 1.5;
+}
+.design-img{
+    float: left;
+    margin-right: 15px;
+}
+
+
+.developer-img{
+    float: left;
+    margin-left: 15px;
+}
+.skill-description-design{
+    /* clear: left; */
+    font-size: 20px;
+  
+}
+.skill-description-development{
+  
+    /* clear: right; */
+    font-size: 20px;
+}
+
+
+/* .bottom-container{
+ width: 40%;
+} */
+.get-in-touch-title{
+    margin-top: 60px;
+    font-size: 18px;
+}
+.get-in-touch-description{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    margin-top: 20px;
+    color: white;
+    background-color: #66BFBF;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer{
+    margin-top: 100px;
+    padding: 50px;
+    width: 100%;
+    background-color: #E4F9F5;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.bottom-container{
+    pad: 10px;
+}
+.footer-link{
+    color: #11999E;
+}
+.copyright{
+    color: rgb(131, 128, 128);
+}
